@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Animation", "Animation\Animation.vcxproj", "{CA91A37D-90F5-42D6-B68A-A47BB960494D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI", "GUI\GUI.vcxproj", "{055AF38B-3AF9-46AB-94FD-BAC0F7147CFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1B51A39-7155-431A-A3F7-8084ED63AE96} = {E1B51A39-7155-431A-A3F7-8084ED63AE96}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "Utility\Utility.vcxproj", "{E1B51A39-7155-431A-A3F7-8084ED63AE96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "Editor\Editor.vcxproj", "{C2957648-4CFB-4BE5-A190-885100C76DBE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{055AF38B-3AF9-46AB-94FD-BAC0F7147CFD} = {055AF38B-3AF9-46AB-94FD-BAC0F7147CFD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "App", "App\App.vcxproj", "{6CCC765C-1A95-4499-9D4C-AD900A983976}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA91A37D-90F5-42D6-B68A-A47BB960494D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA91A37D-90F5-42D6-B68A-A47BB960494D}.Debug|Win32.Build.0 = Debug|Win32
+		{CA91A37D-90F5-42D6-B68A-A47BB960494D}.Release|Win32.ActiveCfg = Release|Win32
+		{CA91A37D-90F5-42D6-B68A-A47BB960494D}.Release|Win32.Build.0 = Release|Win32
+		{055AF38B-3AF9-46AB-94FD-BAC0F7147CFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{055AF38B-3AF9-46AB-94FD-BAC0F7147CFD}.Debug|Win32.Build.0 = Debug|Win32
+		{055AF38B-3AF9-46AB-94FD-BAC0F7147CFD}.Release|Win32.ActiveCfg = Release|Win32
+		{055AF38B-3AF9-46AB-94FD-BAC0F7147CFD}.Release|Win32.Build.0 = Release|Win32
+		{E1B51A39-7155-431A-A3F7-8084ED63AE96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1B51A39-7155-431A-A3F7-8084ED63AE96}.Debug|Win32.Build.0 = Debug|Win32
+		{E1B51A39-7155-431A-A3F7-8084ED63AE96}.Release|Win32.ActiveCfg = Release|Win32
+		{E1B51A39-7155-431A-A3F7-8084ED63AE96}.Release|Win32.Build.0 = Release|Win32
+		{C2957648-4CFB-4BE5-A190-885100C76DBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2957648-4CFB-4BE5-A190-885100C76DBE}.Debug|Win32.Build.0 = Debug|Win32
+		{C2957648-4CFB-4BE5-A190-885100C76DBE}.Release|Win32.ActiveCfg = Release|Win32
+		{C2957648-4CFB-4BE5-A190-885100C76DBE}.Release|Win32.Build.0 = Release|Win32
+		{6CCC765C-1A95-4499-9D4C-AD900A983976}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6CCC765C-1A95-4499-9D4C-AD900A983976}.Debug|Win32.Build.0 = Debug|Win32
+		{6CCC765C-1A95-4499-9D4C-AD900A983976}.Release|Win32.ActiveCfg = Release|Win32
+		{6CCC765C-1A95-4499-9D4C-AD900A983976}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
